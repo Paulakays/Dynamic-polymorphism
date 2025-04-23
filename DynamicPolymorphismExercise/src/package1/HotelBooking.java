@@ -14,7 +14,8 @@ public class HotelBooking extends TravelService{
 		this.numberOfGuests = numberOfGuests;
 		this.includeBreakfast = includeBreakfast;
 	}
-	
+
+	@Override
 	public void book() {
 		System.out.println("HotelName: " + hotelName + "\nRoom type: " + roomType + "\nInclude breakfast: " + includeBreakfast + "\nNumber of guests: " + numberOfGuests);
 	}
