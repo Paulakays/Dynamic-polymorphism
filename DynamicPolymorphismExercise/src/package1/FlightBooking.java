@@ -16,7 +16,7 @@ public class FlightBooking extends TravelService{
 		this.seatNumber = seatNumber;
 	}
 	
-	
+	@Override
 	public void book() {
 		System.out.println("Flight departure airport: " + departureAirport + "\nFlight number: " + flightNumber + "\nPassport number: " + passportNumber + "\nSeat class: " + seatClass
 				+"\nSeat number: " + seatNumber);
